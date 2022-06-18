@@ -1,2 +1,28 @@
 Link de download do Git: https://git-scm.com/downloads
 Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Alguns comandos essenciais do terminal:
+
+git init - cria uma pasta oculta .git e inicia o repositório local na pasta indicada
+git add - adiciona um arquivo ao git que o mesmo não tinha conhecimento ou que sofreu modificações ao estado de espera para que seja guardado como mais recente
+git status - mostra o monitoramento do estado dos arquivos naquela pasta
+mkdir - cria uma nova pasta naquele diretório
+mv nomeDoArquivo ./nomeDaPasta/ - move o arquivo indicado para a pasta indicada através do comando
+ls - lista os itens do diretório atual
+cd nomeDaPasta - entra no diretório indicado
+cd .. - volta ao diretório anterior
+git rm - remove um arquivo
+echo > - cria um arquivo no diretório atual
+git add * ou git add . - adiciona todos os arquivos que sofreram alguma alteração dentro daquela pasta para o estado de espera para que seja guardado/atualizado
+git commit -m "mensagem" - "commita" o arquivo, tornando-o a versão mais recente e atualizada do mesmo
+git config --list - lista as configuraçoes atuais do git
+git config --global --user.email seuEmail@email.com - guarda um email como o do autor do arquivo
+git config --global --user.name seuNome - guarda um nome para o autor dos arquivos
+git config --global --unset user.email - apaga o email indicado anteriormente
+git config --global -- unset user.name - apaga o nome de usuário indicado anteriormente
+git remote add origin linkDoGitHub - indica para onde os arquivos do repositório local serão enviados para o repositório remoto
+git push origin master - envia os arquivos para o repositório remoto
+git pull origin master - pega o arquivo do repositório remoto e o transfere para seu repositório local
+git clone linkDoRepositório - clona o repositório mostrado pela URL com tudo dentro do mesmo, incluindo a pasta .git
+ls -a - lista as pastas ocultas do repositório
+git remote -v - mostra para onde os repositórios estão apontando remotamente
